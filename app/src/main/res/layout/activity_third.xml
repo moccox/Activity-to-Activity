@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail:"
+        android:textSize="22dp"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="密码："
+    android:textSize="22dp"/>
+    <EditText
+        android:id="@+id/newPassword1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="再次确认密码："
+        android:textSize="22dp"/>
+    <EditText
+        android:id="@+id/newPassword2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+    <Button
+    android:id="@+id/enrollsure"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="注册"
+    android:textSize="22dp"/>
+</LinearLayout>
